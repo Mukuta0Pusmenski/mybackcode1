@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-image {
+    width: 50px;
+    /* Зменшено розмір зображення */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 18px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #ED3B44;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    /* Додано лінію під полями вводу */
+    background-color: transparent;
+    /* Зроблено поля вводу прозорими */
+    color: #fff;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #ED3B44;
+    /* Зміна кольору лінії при фокусі */
+}
+
+.send-button {
+    background-color: #ED3B44;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: flex-start;
+    /* Зміщення кнопки ближче до лівої сторони */
+}
+
+.send-button:focus {
+    background-color: #E0373F;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-info p {
+    border: 1px solid #fff;
+    /* Додано рамку для контактних даних */
+    border-radius: 60px;
+    /* Зроблено рамку круглою */
+    padding: 10px;
+    display: inline-block;
+    margin: 5px;
+}
